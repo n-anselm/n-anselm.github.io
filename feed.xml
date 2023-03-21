@@ -3,10 +3,41 @@
     <title>n-anselm</title>
     <link href="https://n-anselm.github.io/feed.xml" rel="self" />
     <link href="https://n-anselm.github.io" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2023-03-21T23:21:01+00:00</updated>
     <author>
         <name>n-anselm</name>
     </author>
     <id>https://n-anselm.github.io</id>
 
+    <entry>
+        <title>Obsidian - The best note taking software ever!</title>
+        <author>
+            <name>n-anselm</name>
+        </author>
+        <link href="https://n-anselm.github.io/obsidian-the-best-note-taking-software-ever/"/>
+        <id>https://n-anselm.github.io/obsidian-the-best-note-taking-software-ever/</id>
+
+        <updated>2023-03-21T23:21:01+00:00</updated>
+            <summary>
+                <![CDATA[
+                    This is going to be a review about Obsidian Obsidian website
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    This is going to be a review about Obsidian
+  </p>
+
+  <p>
+    <a href="https://obsidian.md" target="_blank">Obsidian website</a>
+  </p>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
 </feed>

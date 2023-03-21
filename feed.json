@@ -9,5 +9,19 @@
         "name": "n-anselm"
     },
     "items": [
+        {
+            "id": "https://n-anselm.github.io/obsidian-the-best-note-taking-software-ever/",
+            "url": "https://n-anselm.github.io/obsidian-the-best-note-taking-software-ever/",
+            "title": "Obsidian - The best note taking software ever!",
+            "summary": "This is going to be a review about Obsidian Obsidian website",
+            "content_html": "\n  <p>\n    This is going to be a review about Obsidian\n  </p>\n\n  <p>\n    <a href=\"https://obsidian.md\" target=\"_blank\">Obsidian website</a>\n  </p>\n\n  <p>\n    \n  </p>",
+            "author": {
+                "name": "n-anselm"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-03-21T23:21:01+00:00",
+            "date_modified": "2023-03-21T23:21:01+00:00"
+        }
     ]
 }
