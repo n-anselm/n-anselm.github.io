@@ -9,18 +9,5 @@
         "name": "n-anselm"
     },
     "items": [
-        {
-            "id": "https://n-anselm.github.io/test-post.html",
-            "url": "https://n-anselm.github.io/test-post.html",
-            "title": "Test post",
-            "content_html": "\n  <p>\n    \n  </p>",
-            "author": {
-                "name": "n-anselm"
-            },
-            "tags": [
-            ],
-            "date_published": "2023-02-20T17:54:17+00:00",
-            "date_modified": "2023-02-20T17:54:17+00:00"
-        }
     ]
 }

@@ -3,29 +3,10 @@
     <title>n-anselm</title>
     <link href="https://n-anselm.github.io/feed.xml" rel="self" />
     <link href="https://n-anselm.github.io" />
-    <updated>2023-02-20T17:54:17+00:00</updated>
+    <updated>1970-01-01T01:00:00+01:00</updated>
     <author>
         <name>n-anselm</name>
     </author>
     <id>https://n-anselm.github.io</id>
 
-    <entry>
-        <title>Test post</title>
-        <author>
-            <name>n-anselm</name>
-        </author>
-        <link href="https://n-anselm.github.io/test-post.html"/>
-        <id>https://n-anselm.github.io/test-post.html</id>
-
-        <updated>2023-02-20T17:54:17+00:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                
-  <p>
-    
-  </p>
-            ]]>
-        </content>
-    </entry>
 </feed>
