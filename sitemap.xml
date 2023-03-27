@@ -5,8 +5,12 @@
 <loc>https://n-anselm.github.io/</loc>
 </url>
 <url>
-<loc>https://n-anselm.github.io/about/</loc>
-<lastmod>2023-03-21T23:13:24+00:00</lastmod>
+<loc>https://n-anselm.github.io/about-me/</loc>
+<lastmod>2023-03-27T23:26:12+01:00</lastmod>
+<image:image>
+<image:loc>https://n-anselm.github.io/media/posts/6/about-me-bg.avif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://n-anselm.github.io/obsidian-the-best-note-taking-software-ever/</loc>
