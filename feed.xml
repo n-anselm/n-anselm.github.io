@@ -3,12 +3,98 @@
     <title>n-anselm</title>
     <link href="https://n-anselm.github.io/feed.xml" rel="self" />
     <link href="https://n-anselm.github.io" />
-    <updated>2023-03-22T16:06:05+00:00</updated>
+    <updated>2023-03-30T10:35:46+01:00</updated>
     <author>
         <name>n-anselm</name>
     </author>
     <id>https://n-anselm.github.io</id>
 
+    <entry>
+        <title>My Shell Aliases</title>
+        <author>
+            <name>n-anselm</name>
+        </author>
+        <link href="https://n-anselm.github.io/my-shell-aliases/"/>
+        <id>https://n-anselm.github.io/my-shell-aliases/</id>
+        <media:content url="https://n-anselm.github.io/media/posts/10/terminal-img.jpg" medium="image" />
+            <category term="terminal"/>
+            <category term="productivity"/>
+            <category term="Linux"/>
+
+        <updated>2023-03-30T10:35:46+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://n-anselm.github.io/media/posts/10/terminal-img.jpg" alt="" />
+                    Shell aliases improve speed and productivity a lot. Since I use oh-my-zsh, I stored these in a file called custom-aliases.zsh in ~/.oh-my-zsh/custom/. On a fresh install with bash as the default shell you can just drop these aliases into ~/.bashrc. I hope you find these&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://n-anselm.github.io/media/posts/10/terminal-img.jpg" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    Shell aliases improve speed and productivity a lot. Since I use oh-my-zsh, I stored these in a file called custom-aliases.zsh in ~/.oh-my-zsh/custom/. On a fresh install with bash as the default shell you can just drop these aliases into ~/.bashrc. I hope you find these aliases useful!
+  </p>
+
+    <h3 id="navigation">
+      Navigation
+    </h3>
+<pre class="line-numbers  language-html"><code>alias apps='cd ~/Applications'
+alias dsk='cd ~/Desktop'
+alias doc='cd ~/Documents'
+alias dwn='cd ~/Downloads'
+alias pic='cd ~/Pictures'
+alias mus='cd ~/Music'
+alias vid='cd ~/Videos'
+alias cdb='cd ..'
+alias :='cd ..'
+
+# cd into the dir that was passed as an arg and list the contents
+cdl () { cd $1 && ls -l }
+
+# cd into the dir that was passed as an arg and list all of the contents, including hidden files
+cdla () { cd $1 && ls -la }
+
+mkcd () { mkdir $1 && cd $1 } # Create a dir and directly cd into it
+</code></pre>
+
+    <h3 id="files">
+      Files
+    </h3>
+<pre class="line-numbers  language-html"><code>alias ds='dirsize' # Refers to dirsize() function specified after this
+
+# Print the dir size
+dirsize () {
+	if [[ "$1" == "" ]]; then
+		du -sh "$(pwd)"
+	else
+		du -sh "$1"
+	fi
+}</code></pre>
+
+    <h3 id="terminal">
+      Terminal
+    </h3>
+<pre class="line-numbers  language-html"><code>alias x=exit
+alias q=exit
+alias quit=exit
+alias rst=reset</code></pre>
+
+    <h3 id="programs">
+      Programs
+    </h3>
+<pre class="line-numbers  language-html"><code>alias grepw='grep -w'
+alias please='sudo' # Just for fun
+alias mkdirs='mkdir -p' # Makes the dir and any parent dirs that don't exist
+alias ns=notify-send
+alias notify="notify-send 'Your command has finished executing'"</code></pre>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Obsidian - The best note taking software ever!</title>
         <author>
@@ -21,7 +107,7 @@
             <category term="notetaking"/>
             <category term="documentation"/>
 
-        <updated>2023-03-22T16:06:05+00:00</updated>
+        <updated>2023-03-30T10:20:28+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://n-anselm.github.io/media/posts/7/obsidian-graph-view.png" alt="Obsidian featured image showing graph view" />

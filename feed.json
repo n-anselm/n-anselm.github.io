@@ -10,6 +10,24 @@
     },
     "items": [
         {
+            "id": "https://n-anselm.github.io/my-shell-aliases/",
+            "url": "https://n-anselm.github.io/my-shell-aliases/",
+            "title": "My Shell Aliases",
+            "summary": "Shell aliases improve speed and productivity a lot. Since I use oh-my-zsh, I stored these in a file called custom-aliases.zsh in ~/.oh-my-zsh/custom/. On a fresh install with bash as the default shell you can just drop these aliases into ~/.bashrc. I hope you find these&hellip;",
+            "content_html": "\n  <p>\n    Shell aliases improve speed and productivity a lot. Since I use oh-my-zsh, I stored these in a file called custom-aliases.zsh in ~/.oh-my-zsh/custom/. On a fresh install with bash as the default shell you can just drop these aliases into ~/.bashrc. I hope you find these aliases useful!\n  </p>\n\n    <h3 id=\"navigation\">\n      Navigation\n    </h3>\n<pre class=\"line-numbers  language-html\"><code>alias apps='cd ~/Applications'\nalias dsk='cd ~/Desktop'\nalias doc='cd ~/Documents'\nalias dwn='cd ~/Downloads'\nalias pic='cd ~/Pictures'\nalias mus='cd ~/Music'\nalias vid='cd ~/Videos'\nalias cdb='cd ..'\nalias :='cd ..'\n\n# cd into the dir that was passed as an arg and list the contents\ncdl () { cd $1 && ls -l }\n\n# cd into the dir that was passed as an arg and list all of the contents, including hidden files\ncdla () { cd $1 && ls -la }\n\nmkcd () { mkdir $1 && cd $1 } # Create a dir and directly cd into it\n</code></pre>\n\n    <h3 id=\"files\">\n      Files\n    </h3>\n<pre class=\"line-numbers  language-html\"><code>alias ds='dirsize' # Refers to dirsize() function specified after this\n\n# Print the dir size\ndirsize () {\n\tif [[ \"$1\" == \"\" ]]; then\n\t\tdu -sh \"$(pwd)\"\n\telse\n\t\tdu -sh \"$1\"\n\tfi\n}</code></pre>\n\n    <h3 id=\"terminal\">\n      Terminal\n    </h3>\n<pre class=\"line-numbers  language-html\"><code>alias x=exit\nalias q=exit\nalias quit=exit\nalias rst=reset</code></pre>\n\n    <h3 id=\"programs\">\n      Programs\n    </h3>\n<pre class=\"line-numbers  language-html\"><code>alias grepw='grep -w'\nalias please='sudo' # Just for fun\nalias mkdirs='mkdir -p' # Makes the dir and any parent dirs that don't exist\nalias ns=notify-send\nalias notify=\"notify-send 'Your command has finished executing'\"</code></pre>\n\n  <p>\n    \n  </p>",
+            "image": "https://n-anselm.github.io/media/posts/10/terminal-img.jpg",
+            "author": {
+                "name": "n-anselm"
+            },
+            "tags": [
+                   "terminal",
+                   "productivity",
+                   "Linux"
+            ],
+            "date_published": "2023-03-30T10:18:58+01:00",
+            "date_modified": "2023-03-30T10:35:46+01:00"
+        },
+        {
             "id": "https://n-anselm.github.io/obsidian-the-best-note-taking-software-ever/",
             "url": "https://n-anselm.github.io/obsidian-the-best-note-taking-software-ever/",
             "title": "Obsidian - The best note taking software ever!",
@@ -25,7 +43,7 @@
                    "documentation"
             ],
             "date_published": "2023-03-21T23:21:01+00:00",
-            "date_modified": "2023-03-22T16:06:05+00:00"
+            "date_modified": "2023-03-30T10:20:28+01:00"
         }
     ]
 }

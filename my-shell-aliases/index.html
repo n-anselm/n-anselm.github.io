@@ -1,0 +1,44 @@
+<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My Shell Aliases - n-anselm</title><meta name="description" content="Shell aliases improve speed and productivity a lot. Since I use oh-my-zsh, I stored these in a file called custom-aliases.zsh in ~/.oh-my-zsh/custom/. On a fresh install with bash as the default shell you can just drop these aliases into ~/.bashrc. I hope you find these&hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://n-anselm.github.io/my-shell-aliases/"><link rel="alternate" type="application/atom+xml" href="https://n-anselm.github.io/feed.xml"><link rel="alternate" type="application/json" href="https://n-anselm.github.io/feed.json"><meta property="og:title" content="My Shell Aliases"><meta property="og:image" content="https://n-anselm.github.io/media/posts/10/terminal-img.jpg"><meta property="og:image:width" content="1920"><meta property="og:image:height" content="1280"><meta property="og:site_name" content="n-anselm"><meta property="og:description" content="Shell aliases improve speed and productivity a lot. Since I use oh-my-zsh, I stored these in a file called custom-aliases.zsh in ~/.oh-my-zsh/custom/. On a fresh install with bash as the default shell you can just drop these aliases into ~/.bashrc. I hope you find these&hellip;"><meta property="og:url" content="https://n-anselm.github.io/my-shell-aliases/"><meta property="og:type" content="article"><link rel="stylesheet" href="https://n-anselm.github.io/assets/css/style.css?v=8cb682cacac83ded491591f9d68f77fb"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://n-anselm.github.io/my-shell-aliases/"},"headline":"My Shell Aliases","datePublished":"2023-03-30T10:18","dateModified":"2023-03-30T10:35","image":{"@type":"ImageObject","url":"https://n-anselm.github.io/media/posts/10/terminal-img.jpg","height":1280,"width":1920},"description":"Shell aliases improve speed and productivity a lot. Since I use oh-my-zsh, I stored these in a file called custom-aliases.zsh in ~/.oh-my-zsh/custom/. On a fresh install with bash as the default shell you can just drop these aliases into ~/.bashrc. I hope you find these&hellip;","author":{"@type":"Person","name":"n-anselm","url":"https://n-anselm.github.io/authors/n-anselm/"},"publisher":{"@type":"Organization","name":"n-anselm"}}</script></head><body><div class="site-container"><header class="top" id="js-header"><a class="logo" href="https://n-anselm.github.io/">n-anselm</a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="https://n-anselm.github.io/tags/" target="_self">Explore</a></li><li><a href="https://n-anselm.github.io/about-me/" target="_self">About Me</a></li></ul></nav></header><main><article class="post"><div class="hero"><figure class="hero__image hero__image--overlay"><img src="https://n-anselm.github.io/media/posts/10/terminal-img.jpg" srcset="https://n-anselm.github.io/media/posts/10/responsive/terminal-img-xs.jpg 300w, https://n-anselm.github.io/media/posts/10/responsive/terminal-img-sm.jpg 480w, https://n-anselm.github.io/media/posts/10/responsive/terminal-img-md.jpg 768w, https://n-anselm.github.io/media/posts/10/responsive/terminal-img-lg.jpg 1024w, https://n-anselm.github.io/media/posts/10/responsive/terminal-img-xl.jpg 1360w, https://n-anselm.github.io/media/posts/10/responsive/terminal-img-2xl.jpg 1600w" sizes="(max-width: 1600px) 100vw, 1600px" loading="eager" height="1280" width="1920" alt=""></figure><header class="hero__content"><div class="wrapper"><div class="post__meta"><time datetime="2023-03-30T10:18">Mar 30, 2023</time></div><h1>My Shell Aliases</h1></div></header></div><div class="wrapper post__entry"><p>Shell aliases improve speed and productivity a lot. Since I use oh-my-zsh, I stored these in a file called custom-aliases.zsh in ~/.oh-my-zsh/custom/. On a fresh install with bash as the default shell you can just drop these aliases into ~/.bashrc. I hope you find these aliases useful!</p><h3 id="navigation">Navigation</h3><pre class="line-numbers language-html"><code>alias apps='cd ~/Applications'
+alias dsk='cd ~/Desktop'
+alias doc='cd ~/Documents'
+alias dwn='cd ~/Downloads'
+alias pic='cd ~/Pictures'
+alias mus='cd ~/Music'
+alias vid='cd ~/Videos'
+alias cdb='cd ..'
+alias :='cd ..'
+
+# cd into the dir that was passed as an arg and list the contents
+cdl () { cd $1 && ls -l }
+
+# cd into the dir that was passed as an arg and list all of the contents, including hidden files
+cdla () { cd $1 && ls -la }
+
+mkcd () { mkdir $1 && cd $1 } # Create a dir and directly cd into it
+</code></pre><h3 id="files">Files</h3><pre class="line-numbers language-html"><code>alias ds='dirsize' # Refers to dirsize() function specified after this
+
+# Print the dir size
+dirsize () {
+	if [[ "$1" == "" ]]; then
+		du -sh "$(pwd)"
+	else
+		du -sh "$1"
+	fi
+}</code></pre><h3 id="terminal">Terminal</h3><pre class="line-numbers language-html"><code>alias x=exit
+alias q=exit
+alias quit=exit
+alias rst=reset</code></pre><h3 id="programs">Programs</h3><pre class="line-numbers language-html"><code>alias grepw='grep -w'
+alias please='sudo' # Just for fun
+alias mkdirs='mkdir -p' # Makes the dir and any parent dirs that don't exist
+alias ns=notify-send
+alias notify="notify-send 'Your command has finished executing'"</code></pre><p></p></div><footer class="wrapper post__footer"><p class="post__last-updated">This article was updated on Mar 30, 2023</p><ul class="post__tag"><li><a href="https://n-anselm.github.io/tags/linux/">Linux</a></li><li><a href="https://n-anselm.github.io/tags/productivity/">productivity</a></li><li><a href="https://n-anselm.github.io/tags/terminal/">terminal</a></li></ul><div class="post__share"></div></footer></article><nav class="post__nav"><div class="post__nav-inner"><div class="post__nav-prev"><svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="https://n-anselm.github.io/assets/svg/svg-map.svg#arrow-prev"/></svg> <a href="https://n-anselm.github.io/obsidian-the-best-note-taking-software-ever/" class="post__nav-link" rel="prev"><span>Previous</span> Obsidian - The best note taking software ever!</a></div></div></nav><div class="post__comments"><div class="wrapper"></div></div></main><footer class="footer"><div class="footer__copyright"><p>Powered by Publii</p></div><button onclick="backToTopFunction()" id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg><use xlink:href="https://n-anselm.github.io/assets/svg/svg-map.svg#toparrow"/></svg></button></footer></div><script defer="defer" src="https://n-anselm.github.io/assets/js/scripts.min.js?v=f47c11534595205f20935f0db2a62a85"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script><script>var images = document.querySelectorAll('img[loading]');
+
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }</script></body></html>
