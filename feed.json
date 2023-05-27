@@ -10,6 +10,22 @@
     },
     "items": [
         {
+            "id": "https://n-anselm.github.io/linux-de-freeze-solution/",
+            "url": "https://n-anselm.github.io/linux-de-freeze-solution/",
+            "title": "Linux DE Freeze Solution",
+            "summary": "Have you ever had your Linux desktop environment freeze on you? Most people will just hard boot the machine to get it working again. Here's a better way... On your keyboard press and HOLD: Alt + PrtScrn/SysRq then type in this order: R S E&hellip;",
+            "content_html": "\n  <p>\n    Have you ever had your Linux desktop environment freeze on you? Most people will just hard boot the machine to get it working again. Here's a better way...\n  </p>\n\n  <p>\n    On your keyboard press and HOLD:\n  </p>\n\n  <p>\n    <em><b>Alt + PrtScrn/SysRq</b></em>\n  </p>\n\n  <p>\n    then type in this order:\n  </p>\n\n  <p>\n    <em><b>R S E I U B</b></em>\n  </p>\n\n  <p>\n    While holding each key, one a time. The machine may restart after the <i><b>B</b></i>.\n  </p>\n\n  <p>\n    This sequence of commands takes back the keyboard from X, shuts things down properly, and reboots the system.\n  </p>\n\n  <ul>\n    <li>un<b>R</b>aw (take control of keyboard back from X),</li><li>t<b>E</b>rminate (send SIGKILL to all processes, forcing them to terminate immediately),</li><li>k<b>I</b>ll (send SIGKILL to all processes, forcing them to terminate immediately),</li><li><b>S</b>ync (flush data to disk),</li><li><b>U</b>nmount (remount all filesystems read-only),</li><li>re<b>B</b>oot</li>\n  </ul>\n\n  <p>\n    \n  </p>",
+            "image": "https://n-anselm.github.io/media/posts/11/ubuntu-g211cde8e2_1280.png",
+            "author": {
+                "name": "n-anselm"
+            },
+            "tags": [
+                   "Linux"
+            ],
+            "date_published": "2023-05-27T22:02:28+01:00",
+            "date_modified": "2023-05-27T22:11:27+01:00"
+        },
+        {
             "id": "https://n-anselm.github.io/my-shell-aliases/",
             "url": "https://n-anselm.github.io/my-shell-aliases/",
             "title": "My Shell Aliases",

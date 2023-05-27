@@ -3,12 +3,71 @@
     <title>n-anselm</title>
     <link href="https://n-anselm.github.io/feed.xml" rel="self" />
     <link href="https://n-anselm.github.io" />
-    <updated>2023-03-30T10:35:46+01:00</updated>
+    <updated>2023-05-27T22:11:27+01:00</updated>
     <author>
         <name>n-anselm</name>
     </author>
     <id>https://n-anselm.github.io</id>
 
+    <entry>
+        <title>Linux DE Freeze Solution</title>
+        <author>
+            <name>n-anselm</name>
+        </author>
+        <link href="https://n-anselm.github.io/linux-de-freeze-solution/"/>
+        <id>https://n-anselm.github.io/linux-de-freeze-solution/</id>
+        <media:content url="https://n-anselm.github.io/media/posts/11/ubuntu-g211cde8e2_1280.png" medium="image" />
+            <category term="Linux"/>
+
+        <updated>2023-05-27T22:11:27+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://n-anselm.github.io/media/posts/11/ubuntu-g211cde8e2_1280.png" alt="" />
+                    Have you ever had your Linux desktop environment freeze on you? Most people will just hard boot the machine to get it working again. Here's a better way... On your keyboard press and HOLD: Alt + PrtScrn/SysRq then type in this order: R S E&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://n-anselm.github.io/media/posts/11/ubuntu-g211cde8e2_1280.png" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    Have you ever had your Linux desktop environment freeze on you? Most people will just hard boot the machine to get it working again. Here's a better way...
+  </p>
+
+  <p>
+    On your keyboard press and HOLD:
+  </p>
+
+  <p>
+    <em><b>Alt + PrtScrn/SysRq</b></em>
+  </p>
+
+  <p>
+    then type in this order:
+  </p>
+
+  <p>
+    <em><b>R S E I U B</b></em>
+  </p>
+
+  <p>
+    While holding each key, one a time. The machine may restart after the <i><b>B</b></i>.
+  </p>
+
+  <p>
+    This sequence of commands takes back the keyboard from X, shuts things down properly, and reboots the system.
+  </p>
+
+  <ul>
+    <li>un<b>R</b>aw (take control of keyboard back from X),</li><li>t<b>E</b>rminate (send SIGKILL to all processes, forcing them to terminate immediately),</li><li>k<b>I</b>ll (send SIGKILL to all processes, forcing them to terminate immediately),</li><li><b>S</b>ync (flush data to disk),</li><li><b>U</b>nmount (remount all filesystems read-only),</li><li>re<b>B</b>oot</li>
+  </ul>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>My Shell Aliases</title>
         <author>
