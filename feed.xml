@@ -3,12 +3,39 @@
     <title>n-anselm</title>
     <link href="https://n-anselm.github.io/feed.xml" rel="self" />
     <link href="https://n-anselm.github.io" />
-    <updated>2023-06-15T11:16:13+01:00</updated>
+    <updated>2023-06-21T13:21:22+01:00</updated>
     <author>
         <name>n-anselm</name>
     </author>
     <id>https://n-anselm.github.io</id>
 
+    <entry>
+        <title>Blender Logo Animation</title>
+        <author>
+            <name>n-anselm</name>
+        </author>
+        <link href="https://n-anselm.github.io/blender-logo-animation/"/>
+        <id>https://n-anselm.github.io/blender-logo-animation/</id>
+        <media:content url="https://n-anselm.github.io/media/posts/14/blenderlogoanim.jpg" medium="image" />
+            <category term="video"/>
+            <category term="davinci-resolve"/>
+            <category term="animation"/>
+
+        <updated>2023-06-21T13:21:22+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://n-anselm.github.io/media/posts/14/blenderlogoanim.jpg" alt="" />
+                    I'm currently learning how to use Fusion in DaVinci Resolve, so I made this little Blender logo animation. It was a lot of fun, and Fusion is actually not that hard to use once you get the hang of it. Node-based workflows are so much&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://n-anselm.github.io/media/posts/14/blenderlogoanim.jpg" class="type:primaryImage" alt="" /></p>
+                <p>I'm currently learning how to use Fusion in <a href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank" rel="noopener noreferrer">DaVinci Resolve</a>, so I made this little Blender logo animation. It was a lot of fun, and Fusion is actually not that hard to use once you get the hang of it. Node-based workflows are so much more powerful than layer-based stuff.<figure class="post__image"><img loading="lazy"  src="undefined" alt="" data-is-external-image="true"></figure>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/9s9LtzCB82U" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Organic Impressions - Video</title>
         <author>
@@ -18,8 +45,9 @@
         <id>https://n-anselm.github.io/organic-impressions-video-2/</id>
         <media:content url="https://n-anselm.github.io/media/posts/13/organic-impressions-cover.png" medium="image" />
             <category term="video"/>
+            <category term="davinci-resolve"/>
 
-        <updated>2023-06-15T11:16:13+01:00</updated>
+        <updated>2023-06-21T13:14:39+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://n-anselm.github.io/media/posts/13/organic-impressions-cover.png" alt="cover-image" />

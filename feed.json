@@ -10,6 +10,24 @@
     },
     "items": [
         {
+            "id": "https://n-anselm.github.io/blender-logo-animation/",
+            "url": "https://n-anselm.github.io/blender-logo-animation/",
+            "title": "Blender Logo Animation",
+            "summary": "I'm currently learning how to use Fusion in DaVinci Resolve, so I made this little Blender logo animation. It was a lot of fun, and Fusion is actually not that hard to use once you get the hang of it. Node-based workflows are so much&hellip;",
+            "content_html": "<p>I'm currently learning how to use Fusion in <a href=\"https://www.blackmagicdesign.com/products/davinciresolve\" target=\"_blank\" rel=\"noopener noreferrer\">DaVinci Resolve</a>, so I made this little Blender logo animation. It was a lot of fun, and Fusion is actually not that hard to use once you get the hang of it. Node-based workflows are so much more powerful than layer-based stuff.<figure class=\"post__image\"><img loading=\"lazy\"  src=\"undefined\" alt=\"\" data-is-external-image=\"true\"></figure>\n<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/9s9LtzCB82U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\"></iframe></div>",
+            "image": "https://n-anselm.github.io/media/posts/14/blenderlogoanim.jpg",
+            "author": {
+                "name": "n-anselm"
+            },
+            "tags": [
+                   "video",
+                   "davinci-resolve",
+                   "animation"
+            ],
+            "date_published": "2023-06-21T11:48:40+01:00",
+            "date_modified": "2023-06-21T13:21:22+01:00"
+        },
+        {
             "id": "https://n-anselm.github.io/organic-impressions-video-2/",
             "url": "https://n-anselm.github.io/organic-impressions-video-2/",
             "title": "Organic Impressions - Video",
@@ -20,10 +38,11 @@
                 "name": "n-anselm"
             },
             "tags": [
-                   "video"
+                   "video",
+                   "davinci-resolve"
             ],
             "date_published": "2023-06-15T01:03:14+01:00",
-            "date_modified": "2023-06-15T11:16:13+01:00"
+            "date_modified": "2023-06-21T13:14:39+01:00"
         },
         {
             "id": "https://n-anselm.github.io/linux-de-freeze-solution/",
